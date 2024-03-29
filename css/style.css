@@ -321,6 +321,20 @@ footer .links a:not(.last) a::after {
     padding: 9px 15px;
 }
 
+.buttom-quick-menu button {
+    width: 26px;
+    height: 30px;
+}
+
+.buttom-quick-menu .links {
+    display: flex;
+}
+
+.buttom-quick-menu .links a {
+    flex-grow: 1;
+    width: 0;
+}
+
 .bottom-quick-links {
     position: fixed;
     bottom: 70px;
