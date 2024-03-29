@@ -295,7 +295,7 @@ footer .links a {
     position: relative;
 }
 
-footer .links a:not(.last) a::after {
+footer .links a:not(.last)::after {
     content: '';
     display: block;
     width: 1px;
